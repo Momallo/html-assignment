@@ -1,0 +1,53 @@
+/* My awesome CSS! */
+
+body {
+    background-color:azure;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color:darkcyan;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.site-title {
+    color:aliceblue;
+}
+
+#my-image {
+    margin: 20px;
+    box-shadow: 0 0 2px 1px black;
+}
+
+.hobbies {
+    list-style-type: square;
+}
+
+.hobbies :nth-child(odd) {
+    background:cornflowerblue;
+  }
+
+.nav {
+    list-style-type: none;
+}
+
+ a:link { 
+    text-decoration: none;
+    border-style: solid;
+    background-color:darkorange;
+    border-width: 2px; 
+}
+
+a:visited { 
+    text-decoration: none;
+    color: inherit;
+ }
+
+a:hover { 
+    text-decoration: none;
+    background-color: cornflowerblue;
+}
+
